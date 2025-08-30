@@ -9,11 +9,8 @@ const Sidebar = () => {
                 <MdDashboard size={"2rem"} className="text-blue-600" />
                 <h1 className="font-bold text-[1.5rem]">Dashboard</h1>
             </div>
-            <p className="text-gray-400 font-medium mt-8">WIDGETS</p>
             <div className="flex flex-col items-start">
-                <button className={MENUBUTTON.BUTTONDESIGN}><FaPlus size={"1rem"} />{MENUS.FIRST}</button>
-                <button className={MENUBUTTON.BUTTONDESIGN}><FaPlus size={"1rem"} />{MENUS.SECOND}</button>
-                <button className={MENUBUTTON.BUTTONDESIGN}><FaPlus size={"1rem"} />{MENUS.THIRD}</button>
+                <button className={MENUBUTTON.BUTTONDESIGN}>Admin</button>
             </div>
         </div>
     )
